@@ -1,4 +1,6 @@
 # cypress-react-component-example
+[![ci status][ci image]][ci url] [![badges status][badges image]][badges url] [![renovate-app badge][renovate-badge]][renovate-app] ![cypress version](https://img.shields.io/badge/cypress-7.2.0-brightgreen)
+
 > Run [Cypress component tests](https://on.cypress.io/component-testing) using [Cypress GitHub Action](https://github.com/cypress-io/github-action)
 
 Create a new project using [Create React App](https://create-react-app.dev/)
@@ -78,3 +80,10 @@ If you see `'cy' is not defined  no-undef` linting error message, just add the g
 // src/App.spec.js
 /* global cy */
 ```
+
+[ci image]: https://github.com/bahmutov/cypress-react-component-example/workflows/ci/badge.svg?branch=main
+[ci url]: https://github.com/bahmutov/cypress-react-component-example/actions
+[badges image]: https://github.com/bahmutov/cypress-react-component-example/workflows/badges/badge.svg?branch=main
+[badges url]: https://github.com/bahmutov/cypress-react-component-example/actions
+[renovate-badge]: https://img.shields.io/badge/renovate-app-blue.svg
+[renovate-app]: https://renovateapp.com/
