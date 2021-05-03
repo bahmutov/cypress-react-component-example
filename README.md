@@ -72,6 +72,25 @@ Click on the component spec file "App.spec.js" and enjoy 🚀
 
 ![App component test](./images/app.png)
 
+## Running on CI
+
+Let's use [Cypress GitHub Action](https://github.com/cypress-io/github-action) to run all Cypress tests on CI. You can find the full workflow file in [.github/workflows/ci.yml](./.github/workflows/ci.yml) file. In summary, install and run E2E tests using the action, then call the action again, skipping the install and using a custom test command parameter:
+
+```yml
+- name: Run E2E tests 🧪
+  uses: cypress-io/github-action@v2
+
+- name: Run Component tests 🧪
+  uses: cypress-io/github-action@v2
+  with:
+    # we have already installed everything
+    install: false
+    # to run component tests we need to use "cypress run-ct"
+    command: yarn cypress run-ct
+```
+
+![Component tests running on CI](./images/ct.png)
+
 ## Tips
 
 If you see `'cy' is not defined  no-undef` linting error message, just add the global `cy` object comment to the spec file
