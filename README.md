@@ -66,6 +66,10 @@ Launch the test runner with
 $ yarn cypress open-ct
 ```
 
+Click on the component spec file "App.spec.js" and enjoy 🚀
+
+![App component test](./images/app.png)
+
 ## Tips
 
 If you see `'cy' is not defined  no-undef` linting error message, just add the global `cy` object comment to the spec file

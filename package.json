@@ -1,5 +1,6 @@
 {
   "name": "cypress-react-component-example",
+  "description": "Cypress React component testing example running on CI using Cypress GitHub Action",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,7 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "cypress run-ct",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
