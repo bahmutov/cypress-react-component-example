@@ -1176,10 +1176,10 @@
   resolved "https://registry.yarnpkg.com/@cypress/mount-utils/-/mount-utils-1.0.2.tgz#afbc4f8c350b7cd86edc5ad0db0cbe1e0181edc8"
   integrity sha512-Fn3fdTiyayHoy8Ol0RSu4MlBH2maQ2ZEXeEVKl/zHHXEQpld5HX3vdNLhK5YLij8cLynA4DxOT/nO9iEnIiOXw==
 
-"@cypress/react@5.4.2":
-  version "5.4.2"
-  resolved "https://registry.yarnpkg.com/@cypress/react/-/react-5.4.2.tgz#5bff55d8e50f7122d9581c54de39ac90993044de"
-  integrity sha512-fpuZIsX1fRurgMSIYe0+BQrdCHsTWzD07SKYKF85nqJZ2/B8yNDJpkCSp5qyOG2uU3F+tw+BbMAMPL1zTq4yHA==
+"@cypress/react@5.5.0":
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/@cypress/react/-/react-5.5.0.tgz#ea55a73b580600c60e22fcedd22a3126d232cb67"
+  integrity sha512-jhoTFEG/4Kz6mV2DBpMJpSpOzyb5Ul70IDQmPXXqiKKzpDjv+TL+fCURse+Srz02tSbfLzCsNsB2Nnqj+xeEfQ==
   dependencies:
     "@cypress/mount-utils" "1.0.2"
     "@cypress/webpack-preprocessor" "5.7.0"
