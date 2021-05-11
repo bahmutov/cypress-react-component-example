@@ -1176,13 +1176,12 @@
   resolved "https://registry.yarnpkg.com/@cypress/mount-utils/-/mount-utils-1.0.2.tgz#afbc4f8c350b7cd86edc5ad0db0cbe1e0181edc8"
   integrity sha512-Fn3fdTiyayHoy8Ol0RSu4MlBH2maQ2ZEXeEVKl/zHHXEQpld5HX3vdNLhK5YLij8cLynA4DxOT/nO9iEnIiOXw==
 
-"@cypress/react@5.5.0":
-  version "5.5.0"
-  resolved "https://registry.yarnpkg.com/@cypress/react/-/react-5.5.0.tgz#ea55a73b580600c60e22fcedd22a3126d232cb67"
-  integrity sha512-jhoTFEG/4Kz6mV2DBpMJpSpOzyb5Ul70IDQmPXXqiKKzpDjv+TL+fCURse+Srz02tSbfLzCsNsB2Nnqj+xeEfQ==
+"@cypress/react@5.6.0":
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/@cypress/react/-/react-5.6.0.tgz#291882d43413801809d6f8701bc639c3fc48e6e2"
+  integrity sha512-2G0p4cOYzE2SWqmN2KrVo3GPcXxezfnKkwmqgsUfDRQTTseP9ylMgpyZ/KMDD61kHu1Mi/CT2U0ayi0yQ7N/mw==
   dependencies:
     "@cypress/mount-utils" "1.0.2"
-    "@cypress/webpack-preprocessor" "5.7.0"
     debug "4.3.2"
     find-webpack "2.2.1"
     find-yarn-workspace-root "2.0.0"
@@ -1221,15 +1220,6 @@
     debug "4.3.2"
     semver "^7.3.4"
     webpack-merge "^5.4.0"
-
-"@cypress/webpack-preprocessor@5.7.0":
-  version "5.7.0"
-  resolved "https://registry.yarnpkg.com/@cypress/webpack-preprocessor/-/webpack-preprocessor-5.7.0.tgz#653c92662fe885260f176f5a1bd630dfd2cee8ca"
-  integrity sha512-E60lsdMoIJFR36t7J2yjcAH3vrxF1WecoTIz4PL7Km/LrIEx1/qafEeyGuHTBynr/RBd4kCaS2XLJW75hOeLSw==
-  dependencies:
-    bluebird "^3.7.1"
-    debug "4.3.2"
-    lodash "^4.17.20"
 
 "@cypress/xvfb@^1.2.4":
   version "1.2.4"
@@ -2864,7 +2854,7 @@ blob-util@^2.0.2:
   resolved "https://registry.yarnpkg.com/blob-util/-/blob-util-2.0.2.tgz#3b4e3c281111bb7f11128518006cdc60b403a1eb"
   integrity sha512-T7JQa+zsXXEa6/8ZhHcQEW1UFfVM49Ts65uBkFL6fz2QmrElqmbajIDJvuA0tEhRe5eIjpV9ZF+0RfZR9voJFQ==
 
-bluebird@^3.5.5, bluebird@^3.7.1, bluebird@^3.7.2:
+bluebird@^3.5.5, bluebird@^3.7.2:
   version "3.7.2"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
   integrity sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==
