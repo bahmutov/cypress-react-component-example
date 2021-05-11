@@ -1212,10 +1212,10 @@
     tunnel-agent "^0.6.0"
     uuid "^3.3.2"
 
-"@cypress/webpack-dev-server@1.1.6":
-  version "1.1.6"
-  resolved "https://registry.yarnpkg.com/@cypress/webpack-dev-server/-/webpack-dev-server-1.1.6.tgz#650b76c0ee45dcfc2ec41e6ce2b7c2b0f035b285"
-  integrity sha512-3+zm8axsjOuWnhkoYCI27WWWs/rlGPFs+1vgszFCIzzsIcoIzmnF7EMNHMi90bbgTv7EPB4jQ5KCPPzwiJ7J3w==
+"@cypress/webpack-dev-server@1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@cypress/webpack-dev-server/-/webpack-dev-server-1.2.0.tgz#6b6377d16f1a60b20c108f439573b264ad0dd139"
+  integrity sha512-FP9NbAOVe+ilW36lJBLXKedk5JTMA5aUOTl8yeY4jwLF/tGClWStH4pfrZil2Bxr8C2FIfcWHWmTW9+ch99jpw==
   dependencies:
     debug "4.3.2"
     semver "^7.3.4"
