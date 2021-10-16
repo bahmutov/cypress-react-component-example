@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "@cypress/react": "5.10.1",
-    "@cypress/webpack-dev-server": "1.6.0",
+    "@cypress/webpack-dev-server": "1.7.0",
     "cypress": "8.6.0",
     "webpack-dev-server": "4.3.1"
   }
