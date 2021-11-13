@@ -40,6 +40,6 @@
     "@cypress/react": "5.10.3",
     "@cypress/webpack-dev-server": "1.7.0",
     "cypress": "9.0.0",
-    "webpack-dev-server": "4.4.0"
+    "webpack-dev-server": "4.5.0"
   }
 }
